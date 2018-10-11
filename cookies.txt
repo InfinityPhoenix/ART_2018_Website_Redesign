@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+aragonrobotics.weebly.com	TRUE	/	FALSE	1999999999	is_mobile	0
+aragonrobotics.weebly.com	TRUE	/	FALSE	1999999999	gdpr-kb	1
+aragonrobotics.weebly.com	TRUE	/	FALSE	1999999999	language	en
+

@@ -1,0 +1,50 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 09 Oct 2018 16:33:51 at http://aragonrobotics.weebly.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f0#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://aragonrobotics.weebly.com -O1 "C:\Users\User\Documents\School\AR_Weebly_Clone\AR_Weebly_Clone" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:33:51	Warning: 	Note: due to aragonrobotics.weebly.com remote robots.txt rules, links beginning with these path will be forbidden: /ajax/, /apps/ (see in the options to disable this)
+16:44:36	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/"/uploads/5/7/3/6/57360263/background-images/838247662.jpg" (from aragonrobotics.weebly.com/)
+16:44:37	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/r (from cdn2.editmysite.com/js/site/main.js?buildTime=1475293089)
+16:44:37	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/mustache.js (from cdn2.editmysite.com/js/site/main.js?buildTime=1475293089)
+16:44:37	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/GET (from cdn2.editmysite.com/js/site/main.js?buildTime=1475293089)
+16:44:37	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/formSubmit.php (from cdn2.editmysite.com/js/site/main.js?buildTime=1475293089)
+16:44:37	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/formSubmitAjax.php (from cdn2.editmysite.com/js/site/main.js?buildTime=1475293089)
+16:44:37	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/weebly/libraries/videojs/video-js.swf (from cdn2.editmysite.com/js/site/main.js?buildTime=1475293089)
+16:44:37	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/AppleWebKit/ (from cdn2.editmysite.com/js/site/main.js?buildTime=1475293089)
+16:44:37	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/Mobile/ (from cdn2.editmysite.com/js/site/main.js?buildTime=1475293089)
+16:44:37	Warning: 	Retry after error -4 (Incorrect length (335054 Bytes, 613309 expected)) at link aragonrobotics.weebly.com/uploads/5/7/3/6/57360263/background-images/160608920.jpg (from aragonrobotics.weebly.com/about-us.html)
+16:44:38	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/"/uploads/5/7/3/6/57360263/background-images/160608920.jpg" (from aragonrobotics.weebly.com/about-us.html)
+16:44:40	Warning: 	Retry after error -4 (Incorrect length (20308 Bytes, 296365 expected)) at link aragonrobotics.weebly.com/uploads/5/7/3/6/57360263/img-1979_1_orig.jpg (from aragonrobotics.weebly.com/ftc-team-4345-leonardo.html)
+16:44:41	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/"/uploads/5/7/3/6/57360263/background-images/335958766.jpg" (from aragonrobotics.weebly.com/ftc-team-10148-picasso.html)
+16:44:41	Warning: 	Retry after error -4 (Incorrect length (59070 Bytes, 253252 expected)) at link aragonrobotics.weebly.com/uploads/5/7/3/6/57360263/1470154031.png (from aragonrobotics.weebly.com/ftc-team-10148-picasso.html)
+16:44:42	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/"/uploads/5/7/3/6/57360263/background-images/1952789518.jpg" (from aragonrobotics.weebly.com/blog)
+16:44:48	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/"/uploads/5/7/3/6/57360263/background-images/1591121525.jpg" (from aragonrobotics.weebly.com/calendar.html)
+16:44:48	Warning: 	Retry after error -4 (Incorrect length (66383 Bytes, 613309 expected)) at link aragonrobotics.weebly.com/uploads/5/7/3/6/57360263/background-images/1152240316.jpg (from aragonrobotics.weebly.com/contact.html)
+16:44:49	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/"/uploads/5/7/3/6/57360263/background-images/1152240316.jpg" (from aragonrobotics.weebly.com/contact.html)
+16:44:50	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/"/uploads/5/7/3/6/57360263/background-images/176013838.jpg" (from aragonrobotics.weebly.com/support-us.html)
+16:44:50	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/"/uploads/5/7/3/6/57360263/background-images/903860656.jpg" (from aragonrobotics.weebly.com/members.html)
+16:44:51	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/"/uploads/5/7/3/6/57360263/background-images/337184616.jpg" (from aragonrobotics.weebly.com/photos.html)
+16:44:51	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from cdn2.editmysite.com/js/wsnbn/snowday262.js)
+16:44:51	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/payload.js (from cdn2.editmysite.com/js/wsnbn/snowday262.js)
+16:44:51	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/POST (from cdn2.editmysite.com/js/wsnbn/snowday262.js)
+16:44:51	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/blog/"/uploads/5/7/3/6/57360263/background-images/1952789518.jpg" (from aragonrobotics.weebly.com/blog/1st-post)
+16:44:55	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/blog/archives/"/uploads/5/7/3/6/57360263/background-images/1952789518.jpg" (from aragonrobotics.weebly.com/blog/archives/07-2016)
+16:44:55	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/blog/category/"/uploads/5/7/3/6/57360263/background-images/1952789518.jpg" (from aragonrobotics.weebly.com/blog/category/all)
+16:46:03	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/blog/archives/r (from cdn2.editmysite.com/js/site/main.js?buildTime=1506024121)
+16:46:03	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/blog/archives/mustache.js (from cdn2.editmysite.com/js/site/main.js?buildTime=1506024121)
+16:46:03	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/blog/archives/GET (from cdn2.editmysite.com/js/site/main.js?buildTime=1506024121)
+16:46:03	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/blog/archives/formSubmit.php (from cdn2.editmysite.com/js/site/main.js?buildTime=1506024121)
+16:46:03	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/blog/archives/formSubmitAjax.php (from cdn2.editmysite.com/js/site/main.js?buildTime=1506024121)
+16:46:03	Warning: 	Found for aragonrobotics.weebly.com/blog/archives/AppleWebKit/
+16:46:03	Warning: 	File has moved from aragonrobotics.weebly.com/blog/archives/AppleWebKit/ to /blog/archives/applewebkit
+16:46:04	Warning: 	Found for aragonrobotics.weebly.com/blog/archives/Mobile/
+16:46:04	Warning: 	File has moved from aragonrobotics.weebly.com/blog/archives/Mobile/ to /blog/archives/mobile
+16:46:05	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/blog/archives/applewebkit (from aragonrobotics.weebly.com/blog/archives/AppleWebKit/)
+16:46:05	Error: 	"Not Found" (404) at link aragonrobotics.weebly.com/blog/archives/mobile (from aragonrobotics.weebly.com/blog/archives/Mobile/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 12 minutes 14 seconds : 270 links scanned, 229 files written (25202984 bytes overall) [19177449 bytes received at 26127 bytes/sec], 8915141 bytes transferred using HTTP compression in 49 files, ratio 24%, 2.7 requests per connection
+(30 errors, 9 warnings, 0 messages)
