@@ -4,12 +4,12 @@
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
-	<title>Aragon Robotics Team - Home</title><meta property="og:site_name" content="Aragon Robotics Team" />
+	<title>Aragon Robotics Team - Home</title>
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		
-	<link id="wsite-base-style" rel="stylesheet" type="text/css" href="resources/css/home.css" />
+	<link id="wsite-base-style" rel="stylesheet" type="text/css" href="resources/css/base.css" />
 	<link rel="stylesheet" type="text/css" href="resources/css/old/fancybox4604.css" />
 	<link rel="stylesheet" type="text/css" href="resources/css/social-icons.css" media="screen,projection" />
 	<link rel="stylesheet" type="text/css" href="resources/css/master.css" title="wsite-theme-css" />
@@ -108,12 +108,14 @@
 </style>
 <style>
 .wsite-background {
-	background-image: url("uploads/5/7/3/6/57360263/background-images/838247662.jpg") !important;
+	background-image: url("resources/user-media/background-images/838247662.jpg") !important;
 	background-repeat: no-repeat !important;
 	background-position: 50% 50% !important;
 	background-size: 100% !important;
 	background-color: transparent !important;
-	background: inherit;}
+	background: inherit;
+	z-index: -1000;
+}
 
 body.wsite-background {
 	background-attachment: fixed !important;
@@ -131,14 +133,24 @@ var STYLE_PREFIX = 'wsite';
 //-->
 </script>
 <script src='resources/js/jquery/jquery.min.js'></script>
-<script type="text/javascript" src="resources/js/lang/en/stlc2d1.js?buildTime=1475293089&amp;"></script>
-<script src="resources/js/site/main4f5d.js"></script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
-<script type="text/javascript" src="resources/js/lang/en/stlc2d1.js?buildTime=1475293089&amp;"></script><script> _W.themePlugins = [];</script><script type="text/javascript"><!--
+<script type="text/javascript" src="resources/js/lang/en/stlc2d1.js"></script>
+<script src="resources/js/site/main4f5d.js"></script>
+<script type="text/javascript">_W.configDomain = "www.weebly.com";</script>
+<script>_W.relinquish && _W.relinquish()</script>
+<script type="text/javascript" src="resources/js/lang/en/stlc2d1.js"></script>
+<script> _W.themePlugins = [];</script>
+<script type="text/javascript"><!--
 	
 	(function(jQuery){
 		function initFlyouts(){
 			initPublishedFlyoutMenus(
-				[{"id":"358635458839241672","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"714252824906805467","title":"INFO","url":"info.html","target":"","nav_menu":false,"nonclickable":true},{"id":"667851577777324479","title":"Blog","url":"blog.html","target":"","nav_menu":false,"nonclickable":false},{"id":"350525452241378048","title":"Calendar","url":"calendar.html","target":"","nav_menu":false,"nonclickable":false},{"id":"445171083513207314","title":"Connect","url":"connect.html","target":"","nav_menu":false,"nonclickable":true},{"id":"121262513646178692","title":"Members","url":"members.html","target":"","nav_menu":false,"nonclickable":false},{"id":"323678447806123357","title":"Photos","url":"photos.html","target":"","nav_menu":false,"nonclickable":false}],
+				[{"id":"358635458839241672","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},
+				{"id":"714252824906805467","title":"INFO","url":"info.html","target":"","nav_menu":false,"nonclickable":true},
+				{"id":"667851577777324479","title":"Blog","url":"blog.html","target":"","nav_menu":false,"nonclickable":false},
+				{"id":"350525452241378048","title":"Calendar","url":"calendar.html","target":"","nav_menu":false,"nonclickable":false},
+				{"id":"445171083513207314","title":"Connect","url":"connect.html","target":"","nav_menu":false,"nonclickable":true},
+				{"id":"121262513646178692","title":"Members","url":"members.html","target":"","nav_menu":false,"nonclickable":false},
+				{"id":"323678447806123357","title":"Photos","url":"photos.html","target":"","nav_menu":false,"nonclickable":false}],
 				"358635458839241672",
 				'',
 				'active',
@@ -239,7 +251,7 @@ var STYLE_PREFIX = 'wsite';
 	<div class="banner-wrap">
 		<div class="wsite-elements wsite-not-footer wsite-header-elements">
 			<div class="wsite-section-wrap">
-				<div class="wsite-section wsite-header-section wsite-section-bg-image" style="vertical-align: middle; background-image: url(resources/user-media/background-images/838247662.jpg); background-repeat: no-repeat; background-position: 50% 50%; background-size: 100%; background-color: transparent; background-size: cover;" >
+				<div class="wsite-section wsite-header-section wsite-section-bg-image" style="vertical-align: middle; background-image: url('resources/user-media/background-images/838247662.jpg'); background-repeat: no-repeat; background-position: 50% 50%; background-size: 100%; background-color: transparent; background-size: cover">
 					<div class="wsite-section-content">
 						<div class="container">
 							<div class="banner">
@@ -359,6 +371,8 @@ var STYLE_PREFIX = 'wsite';
 													<font size="4">
 														<font color="#c23b3b">11/15/2018&nbsp;</font><br />
 														<font color="#2a2a2a">Fall Potluck</font><br /><br />
+														<font color="#c23b3b">TBD&nbsp;</font><br />
+														<font color="#2a2a2a">First Qualifier!</font><br /><!--Last one needs only one <br>-->
 													</font>
 												</div>
 												<div style="text-align:left;">
@@ -557,9 +571,10 @@ var STYLE_PREFIX = 'wsite';
     </ul>
 </div>
 
-<script type="text/javascript" src="files/theme/pluginsec8b.js?1475259792"></script>
-<script type="text/javascript" src="files/theme/customec8b.js?1475259792"></script>
+<script type="text/javascript" src="resources/js/theme/pluginsec8b.js"></script>
+<script type="text/javascript" src="resources/js/theme/customec8b.js"></script>
 
+<!--
 <script type="text/javascript">
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-7870337-1']);
@@ -580,7 +595,7 @@ var STYLE_PREFIX = 'wsite';
 	;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
 			p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
 			};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
-			n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,'script','../cdn2.editmysite.com/js/wsnbn/snowday262.js','snowday'));
+			n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,'script','http://cdn2.editmysite.com/js/wsnbn/snowday262.js','snowday'));
 
 	var r = [99, 104, 101, 99, 107, 111, 117, 116, 46, 40, 119, 101, 101, 98, 108, 121, 124, 101, 100, 105, 116, 109, 121, 115, 105, 116, 101, 41, 46, 99, 111, 109];
 	var snPlObR = function(arr) {
@@ -676,6 +691,7 @@ var STYLE_PREFIX = 'wsite';
 	window._W.isEUUser = false;
 	window._W.showCookieToAll = "";
 </script>
+-->
 
 </body>
 
