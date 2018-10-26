@@ -1,0 +1,42 @@
+10/25
+- Finish formatting all html
+    - Use online html formatter
+- Finish menu bar on every site + footer by 10/28
+    - Priority
+- Send Shelby list of things that Media should do
+
+10/28
+- Finish menu bar on every site + footer
+    - Priority
+- Fixing page
+    - Update links to images, CSS, jQuery
+    - Ask media for updated pictures/pages
+
+10/29
+- Fixing page
+    - Update links to images, CSS, jQuery
+- Update content and create new pages
+
+11/1
+- Update content and create new pages
+
+11/4
+- Update content and create new pages
+
+11/5
+- Finalizing the website
+
+11/8
+- Send functional skeleton to George
+
+11/11
+- Waiting for George's return
+
+11/12
+- Waiting for George's return
+
+11/15
+- Final edits
+
+11/18
+- Final edits
