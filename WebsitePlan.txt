@@ -13,6 +13,8 @@
     - Ask media for updated pictures/pages
 
 10/29
+- Finish menu bar on every site + footer
+    - Priority
 - Fixing page
     - Update links to images, CSS, jQuery
 - Update content and create new pages
