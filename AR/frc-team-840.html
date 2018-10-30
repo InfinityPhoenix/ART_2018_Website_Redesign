@@ -10,14 +10,14 @@
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <meta property="og:site_name" content="Aragon Robotics Team" />
-      <link id="wsite-base-style" rel="stylesheet" type="text/css" href="../cdn2.editmysite.com/css/sites2ce2.css?buildTime=1487113756" />
-      <link rel="stylesheet" type="text/css" href="../cdn2.editmysite.com/css/old/fancybox4604.css?1475293089" />
-      <link rel="stylesheet" type="text/css" href="../cdn2.editmysite.com/css/social-icons73ab.css?buildtime=1475293089" media="screen,projection" />
-      <link rel="stylesheet" type="text/css" href="files/main_stylecdd4.css?1475365890" title="wsite-theme-css" />
+      <link id="wsite-base-style" rel="stylesheet" type="text/css" href="resources/css/sites2ce2.css" />
+      <link rel="stylesheet" type="text/css" href="resources/css/old/fancybox4604.css" />
+      <link rel="stylesheet" type="text/css" href="resources/css/social-icons.css" media="screen,projection" />
+      <link rel="stylesheet" type="text/css" href="resources/css/master.css" title="wsite-theme-css" />
       <link href='http://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic,700italic&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css' />
       <link href='http://fonts.googleapis.com/css?family=Fjalla+One&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css' />
       <style>
-         .wsite-background {background-image: url("uploads/5/7/3/6/57360263/background-images/335958766.jpg") !important;background-repeat: no-repeat !important;background-position: 50.00% 34.10% !important;background-size: 100% !important;background-color: transparent !important;}
+         .wsite-background {background-image: url("resources/user-media/background-images/335958766.jpg") !important;background-repeat: no-repeat !important;background-position: 50.00% 34.10% !important;background-size: 100% !important;background-color: transparent !important;}
          body.wsite-background {background-attachment: fixed !important;}.wsite-background.wsite-custom-background{ background-size: cover !important}
       </style>
       <script><!--
@@ -26,29 +26,34 @@
          var STYLE_PREFIX = 'wsite';
          //-->
       </script>
-      <script src='../ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
-      <script type="text/javascript" src="../cdn2.editmysite.com/js/lang/en/stlc2d1.js?buildTime=1475293089&amp;"></script>
-      <script src="../cdn2.editmysite.com/js/site/main2ce2.js?buildTime=1487113756"></script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
-      <script type="text/javascript" src="../cdn2.editmysite.com/js/lang/en/stl6c86.js?buildTime=1487113756&amp;"></script><script> _W.themePlugins = [];</script><script type="text/javascript"><!--
+      <script src='resources/js/jquery/jquery.min.js'></script>
+      <script type="text/javascript" src="resources/js/lang/en/stlc2d1.js"></script>
+      <script src="resources/js/site/main2ce2.js"></script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+      <script type="text/javascript" src="resources/js/lang/en/stl6c86.js"></script><script> _W.themePlugins = [];</script><script type="text/javascript"><!--
          (function(jQuery){
-         	function initFlyouts(){
-         		initPublishedFlyoutMenus(
-         			[{"id":"358635458839241672","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"714252824906805467","title":"INFO","url":"info.html","target":"","nav_menu":false,"nonclickable":true},{"id":"667851577777324479","title":"Blog","url":"blog.html","target":"","nav_menu":false,"nonclickable":false},{"id":"350525452241378048","title":"Calendar","url":"calendar.html","target":"","nav_menu":false,"nonclickable":false},{"id":"445171083513207314","title":"Connect","url":"connect.html","target":"","nav_menu":false,"nonclickable":true},{"id":"121262513646178692","title":"Members","url":"members.html","target":"","nav_menu":false,"nonclickable":false},{"id":"323678447806123357","title":"Photos","url":"photos.html","target":"","nav_menu":false,"nonclickable":false}],
-         			"314117922286166652",
-         			'',
-         			'active',
-         			false,
-         			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
-         			{}
-         		)
-         	}
-         	if (jQuery) {
-         		jQuery(document).ready(function() { jQuery(initFlyouts); });
-         	}else{
-         		if (Prototype.Browser.IE) window.onload = initFlyouts;
-         		else document.observe('dom:loaded', initFlyouts);
-         	}
-         })(window._W && _W.jQuery)
+		function initFlyouts(){
+			initPublishedFlyoutMenus(
+				[{"id":"home","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},
+				{"id":"info","title":"Info","url":"info.html","target":"","nav_menu":false,"nonclickable":true},
+				{"id":"calendar","title":"Calendar","url":"calendar.html","target":"","nav_menu":false,"nonclickable":false},
+				{"id":"gallery","title":"Gallery","url":"gallery.html","target":"","nav_menu":false,"nonclickable":true},
+				{"id":"connect","title":"Connect","url":"connect.html","target":"","nav_menu":false,"nonclickable":true},
+				{"id":"archives","title":"Archives","url":"archives.html","target":"","nav_menu":false,"nonclickable":false}],
+				"home",
+				'',
+				'active',
+				false,
+				{"navigation\/item": "<li {{#id}} id = \"{{id}}\" {{\/id}} class = \"wsite-menu-item-wrap\"> \n\t <a \n\t\t {{^nonclickable}} \n\t\t\t {{^nav_menu}} \n\t\t\t\ thref = \"{{url}}\" \n\t\t\t {{\/nav_menu}} \n\t\t {{\/nonclickable}} \n\t\t {{#target}} \n\t\t\t target = \"{{target}}\" \n\t\t {{\/target}} \n\t\t {{#membership_required}} \n\t\t\t data-membership-required = \"{{.}}\" \n\t\t {{\/membership_required}} \n\t\t class = \"wsite-menu-item\" \n\t\t> \n\t\t {{{title_html}}} \n\t <\/a> \n\t {{#has_children}}{{> navigation\/flyout\/list}} {{\/has_children}} \n <\/li> \n"," navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+				{}
+			)
+		}
+		if (jQuery) {
+			jQuery(document).ready(function() { jQuery(initFlyouts); });
+		}else{
+			if (Prototype.Browser.IE) window.onload = initFlyouts;
+			else document.observe('dom:loaded', initFlyouts);
+		}
+	})(window._W && _W.jQuery)
          //-->
       </script>
    </head>
@@ -401,80 +406,8 @@
             </li>
          </ul>
       </div>
-      <script type="text/javascript" src="files/theme/pluginsec8b.js?1475259792"></script>
-      <script type="text/javascript" src="files/theme/customec8b.js?1475259792"></script>
-      <script type="text/javascript">
-         var _gaq = _gaq || [];
-         _gaq.push(['_setAccount', 'UA-7870337-1']);
-         _gaq.push(['_setDomainName', 'none']);
-         _gaq.push(['_setAllowLinker', true]);
-         
-         (function() {
-         	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-         	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-         	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-         })();
-         
-         _W.Analytics = _W.Analytics || {'trackers': {}};
-         _W.Analytics.trackers.wGA = '_gaq';
-      </script>
-      <script type="text/javascript" async=1>
-         ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
-         		p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
-         		};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
-         		n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,'script','../cdn2.editmysite.com/js/wsnbn/snowday262.js','snowday'));
-         
-         var r = [99, 104, 101, 99, 107, 111, 117, 116, 46, 40, 119, 101, 101, 98, 108, 121, 124, 101, 100, 105, 116, 109, 121, 115, 105, 116, 101, 41, 46, 99, 111, 109];
-         var snPlObR = function(arr) {
-         	var s = '';
-         	for (var i = 0 ; i < arr.length ; i++){
-         		s = s + String.fromCharCode(arr[i]);
-         	}
-         	return s;
-         };
-         var s = snPlObR(r);
-         
-         var regEx = new RegExp(s);
-         
-         _W.Analytics = _W.Analytics || {'trackers': {}};
-         _W.Analytics.trackers.wSP = 'snowday';
-         _W.Analytics.user_id = '57360263';
-         _W.Analytics.site_id = '661588111611837044';
-         
-         // Setting do not track if the GDPR cookie is not present. This is then checked by the snowday initializer
-         // to set tracking decisions. https://github.com/snowplow/snowplow-javascript-tracker/blob/2.6.2/src/js/tracker.js#L1509
-         window.doNotTrack = document.cookie.indexOf('gdpr-kb') === -1 ? 'yes' : null;
-         
-         
-         (function(app_id, ec_hostname, discover_root_domain) {
-         	var track = window[_W.Analytics.trackers.wSP];
-         	if (!track) return;
-         	track('newTracker', app_id, ec_hostname, {
-         		appId: app_id,
-         		post: true,
-         		platform: 'web',
-         		discoverRootDomain: discover_root_domain,
-         		cookieName: '_snow_',
-         		contexts: {
-         			webPage: true,
-         			performanceTiming: true,
-         			gaCookies: true
-         		},
-         		crossDomainLinker: function (linkElement) {
-         			return regEx.test(linkElement.href);
-         		},
-         		respectDoNotTrack: document.cookie.indexOf('gdpr-kb') === -1
-         	});
-         	track('trackPageView', _W.Analytics.user_id+':'+_W.Analytics.site_id);
-         	track('crossDomainLinker', function (linkElement) {
-         		return regEx.test(linkElement.href);
-         	});
-         })(
-         	'_wn',
-         	'ec.editmysite.com',
-         	false
-         );
-      </script>
+      <script type="text/javascript" src="resources/js/theme/pluginsec8b.js"></script>
+      <script type="text/javascript" src="resources/js/theme/customec8b.js"></script>
       <script>
          (function(jQuery) {
          	try {

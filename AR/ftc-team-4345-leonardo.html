@@ -35,24 +35,29 @@
 	<script> _W.themePlugins = [];</script>
 	<script type="text/javascript"> <!--
          (function(jQuery){
-         	function initFlyouts(){
-         		initPublishedFlyoutMenus(
-         			[{"id":"358635458839241672","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"714252824906805467","title":"INFO","url":"info.html","target":"","nav_menu":false,"nonclickable":true},{"id":"667851577777324479","title":"Blog","url":"blog.html","target":"","nav_menu":false,"nonclickable":false},{"id":"350525452241378048","title":"Calendar","url":"calendar.html","target":"","nav_menu":false,"nonclickable":false},{"id":"445171083513207314","title":"Connect","url":"connect.html","target":"","nav_menu":false,"nonclickable":true},{"id":"121262513646178692","title":"Members","url":"members.html","target":"","nav_menu":false,"nonclickable":false},{"id":"323678447806123357","title":"Photos","url":"photos.html","target":"","nav_menu":false,"nonclickable":false}],
-         			"413974651688971445",
-         			'',
-         			'active',
-         			false,
-         			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
-         			{}
-         		)
-         	}
-         	if (jQuery) {
-         		jQuery(document).ready(function() { jQuery(initFlyouts); });
-         	}else{
-         		if (Prototype.Browser.IE) window.onload = initFlyouts;
-         		else document.observe('dom:loaded', initFlyouts);
-         	}
-         })(window._W && _W.jQuery)
+		function initFlyouts(){
+			initPublishedFlyoutMenus(
+				[{"id":"home","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},
+				{"id":"info","title":"Info","url":"info.html","target":"","nav_menu":false,"nonclickable":true},
+				{"id":"calendar","title":"Calendar","url":"calendar.html","target":"","nav_menu":false,"nonclickable":false},
+				{"id":"gallery","title":"Gallery","url":"gallery.html","target":"","nav_menu":false,"nonclickable":true},
+				{"id":"connect","title":"Connect","url":"connect.html","target":"","nav_menu":false,"nonclickable":true},
+				{"id":"archives","title":"Archives","url":"archives.html","target":"","nav_menu":false,"nonclickable":false}],
+				"home",
+				'',
+				'active',
+				false,
+				{"navigation\/item": "<li {{#id}} id = \"{{id}}\" {{\/id}} class = \"wsite-menu-item-wrap\"> \n\t <a \n\t\t {{^nonclickable}} \n\t\t\t {{^nav_menu}} \n\t\t\t\ thref = \"{{url}}\" \n\t\t\t {{\/nav_menu}} \n\t\t {{\/nonclickable}} \n\t\t {{#target}} \n\t\t\t target = \"{{target}}\" \n\t\t {{\/target}} \n\t\t {{#membership_required}} \n\t\t\t data-membership-required = \"{{.}}\" \n\t\t {{\/membership_required}} \n\t\t class = \"wsite-menu-item\" \n\t\t> \n\t\t {{{title_html}}} \n\t <\/a> \n\t {{#has_children}}{{> navigation\/flyout\/list}} {{\/has_children}} \n <\/li> \n"," navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+				{}
+			)
+		}
+		if (jQuery) {
+			jQuery(document).ready(function() { jQuery(initFlyouts); });
+		}else{
+			if (Prototype.Browser.IE) window.onload = initFlyouts;
+			else document.observe('dom:loaded', initFlyouts);
+		}
+	})(window._W && _W.jQuery)
          //-->
       </script>
    </head>
