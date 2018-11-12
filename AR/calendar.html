@@ -40,6 +40,21 @@
         .wsite-background.wsite-custom-background {
             background-size: cover !important
         }
+		
+		#calendarbox {
+			overflow: hidden;
+			padding-top: 67.5%;
+			position: relative;
+		}
+		
+		#calendarbox iframe {
+			border: 0;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
     </style>
     <script>
         <!--
@@ -196,26 +211,21 @@
                             <div class="container">
                                 <h2 class="wsite-content-title" style="text-align:left;"><font size="6">Upcoming Events</font></h2>
 
-                                <div class="paragraph" style="text-align:left;"><font color="#c23b3b">8/17/2016&nbsp;</font>
-                                    <br /><font color="#2a2a2a">First Day of School<br />&#8203;</font>
-                                    <br /><font color="#c23b3b">8/31/2016</font>
-                                    <br /><font color="#2a2a2a">First Aragon Robotics Club Meeting<font color="#2a2a2a"><br /><br /><font color="#c23b3b">9/10/2016</font>
-                                    <br /><font color="#2a2a2a">FTC 2016 Kickoff<br /><br /><font color="#c23b3b">TBA</font>
-                                    <br /><font color="#2a2a2a" style="color:rgb(42, 42, 42)">Aragon Robotics Fall Potluck</font></font>
-                                    </font>
-                                    </font>
+                                <div class="paragraph" style="text-align:left;">
+								<font color="#c23b3b">11/15/2018&nbsp;</font>
+                                    <br /><font color="#2a2a2a">Fall Potluck<br />&#8203;</font>
+                                    <br /><font color="#c23b3b">12/2/2018</font>
+                                    <br /><font color="#2a2a2a">First Qualifier @ Quarry Lane HS</font>
                                     <br />
                                 </div>
-
                                 <div>
                                     <div style="height: 20px; overflow: hidden; width: 100%;"></div>
                                     <hr class="styled-hr" style="width:100%;"></hr>
                                     <div style="height: 20px; overflow: hidden; width: 100%;"></div>
                                 </div>
-
                                 <div>
-                                    <div id="251473312731524396" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml">
-                                        <iframe src="https://calendar.google.com/calendar/embed?src=aragon.robotics.team%40gmail.com&amp;ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                                    <div id="calendarbox" align="left">
+                                        <iframe src="https://calendar.google.com/calendar/embed?src=aragon.robotics.team%40gmail.com&amp;ctz=America/Los_Angeles" style="border: 0" scrolling="no"></iframe>
                                     </div>
 
                                 </div>
