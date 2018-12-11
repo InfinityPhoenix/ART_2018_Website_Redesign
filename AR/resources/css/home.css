@@ -10794,3 +10794,14 @@ div.ps-toolbar-play div.ps-toolbar-content{
    background-size:176px 88px; 
    background-image:url(../images/old/photoswipe/icons%402x.png)} 
 }
+
+.affiliations-bar {
+    background-color: #e9dfdd; /* light tan color */
+    /*background-color: #d4dbe0;*/ /* light azure */
+    /*background-color: #814e54;*/
+    color:#000;
+}
+
+.affiliations-bar-text {
+    margin: 50px;
+}
