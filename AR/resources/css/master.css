@@ -2467,4 +2467,50 @@ div.paragraph ol, div.paragraph ol li {
     list-style: decimal outside !important;
 }
 
+.affiliations-bar {
+    background-color: #e9dfdd;
+    color:#000;
+}
 
+.affiliations-bar-text {
+    margin: 50px;
+}
+
+#affiliations-nav {
+	display: table;
+	width: 960px;
+	margin: 0 auto;
+}
+
+#affiliations-wrapper {
+	display: table-row;
+	list-style: none;
+	text-align: center;
+}
+
+.affiliation {
+	display: table-cell;
+	width: 33.333%;
+}
+
+.affiliation-logo-wrapper {
+	display: flex;
+  	justify-content: center;
+	text-align: center;
+}
+
+.affiliation-logo {
+	width: 50%;
+	height: auto;
+}
+
+#affiliation-descriptions-wrapper {
+	display: table-row;
+	list-style: none;
+	text-align: center;
+}
+
+.affiliation-description {
+	display: table-cell;
+	width: 33.333%;
+}
